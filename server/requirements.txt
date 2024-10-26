@@ -2,3 +2,4 @@ fastapi
 uvicorn
 replicate
 python-dotenv
+requests
