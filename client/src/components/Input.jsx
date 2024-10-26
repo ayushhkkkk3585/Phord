@@ -96,11 +96,11 @@ const Input = () => {
           </div>
           
           <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
-            <div className={`relative bg-teal-50 p-6 md:p-8 rounded-lg border-2 border-dashed 
+            <div className={`relative  bg-teal-50 p-6 md:p-8 rounded-lg border-2 border-dashed 
                           ${error ? 'border-red-400' : 'border-teal-200'} 
                           hover:border-teal-400 transition-colors duration-200`}>
               {!previewUrl && (
-                <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <div className="absolute inset-0 m-2 flex flex-col items-center justify-center">
                   <ImageIcon className="w-10 md:w-12 h-10 md:h-12 text-teal-400 mb-2" />
                   <p className="text-teal-600">Click to upload or drag and drop</p>
                   <p className="text-teal-400 text-sm">PNG, JPG, JPEG (max 5MB)</p>
