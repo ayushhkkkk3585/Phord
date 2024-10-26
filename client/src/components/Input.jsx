@@ -42,7 +42,7 @@ const Input = () => {
     formData.append("file", file);
 
     try {
-      const response = await fetch(`https://phord.onrender.com/8000/caption-image?prompt=${encodeURIComponent(prompt)}`, {
+      const response = await fetch(`https://phord.onrender.com/caption-image?prompt=${encodeURIComponent(prompt)}`, {
         method: "POST",
         body: formData,
       });
