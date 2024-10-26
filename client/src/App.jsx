@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Lenis from "lenis";
 import "./App.css";
 import Input from "./components/Input";
 
